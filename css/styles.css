@@ -74,7 +74,7 @@ body {
 }
 
 .container {
-    width: 1158px;
+    width: 1440px;
 }
 
 .d-flex {
@@ -171,13 +171,92 @@ body {
 
 /* END OF HERO SECTION STYLING */
 
+/* ABOUT STYLING */
+.about-icon {
+    padding: 24px 0;
+    text-align: center;
+    background-color: var(--cloud);
+}
+
 /* TEAM SECTION STYLING */
+.team {
+    background-color: var(--cloud);
+}
+
 .team-name {
     color: var(--NAVY-BLUE, #2e2f42);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.5; /* 120% */
     letter-spacing: 0.4px;
+    margin-top: 0;
+}
+
+.team ul li {
+    text-align: center;
+}
+
+.team img {
+    display: block;
+}
+
+.team-caption {
+    padding: 32px 0px;
+    background-color: white;
+}
+
+.team-socials {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team-socials-icon {
+    background-color: var(--iris);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-socials-icon svg {
+    fill: white;
+}
+
+/* CUSTOMERS STYLING */
+
+.customer-icon {
+    border: 1px solid #8e8f99;
+    padding: 16px 32px;
+}
+
+.customer-icon svg {
+    fill: #8e8f99;
+}
+
+.customer-icon:hover,
+.customer-icon:focus {
+    border-color: var(--iris);
+}
+
+.customer-icon:hover svg,
+.customer-icon:focus svg {
+    fill: var(--iris);
+}
+
+/* PORTFOLIO STYLING */
+.projects ul {
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.projects li {
+    width: 360px;
+}
+
+.projects li img {
+    width: 100%;
 }
 
 /*FOOTER STYLING*/
